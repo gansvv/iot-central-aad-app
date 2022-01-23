@@ -1,4 +1,4 @@
-# An interactive code walk-through on how to authenticate and authorize to use the Azure IoT Central REST APIs
+# Demo localhost application showing how to authenticate and authorize to use the Azure IoT Central REST APIs
 This is a small codebase built from create-react-app and uses MSAL.js. The code demonstrates the call patterns required to Auth'N/Auth'Z against MS Graph, IoT Central, Azure Resource Management (ARM) and working examples of their respective APIs. This should provide you with enough base code to start your own application.
 
 The code demonstrates two call patterns.  One pattern is used for IoT Central data plane APIs and single sign-on.  The other is used for IoT Central control plane APIs.  
@@ -17,6 +17,18 @@ npm i
 ```
 npm start
 ````
+
+```
+Compiled successfully!
+
+You can now view baseline in the browser.
+
+  Local:            http://localhost:4001
+  On Your Network:  http://172.20.208.1:4001
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+```
 
 ## Usage
 ```
